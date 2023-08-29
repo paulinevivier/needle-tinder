@@ -19,16 +19,26 @@ struct SwipeView: View {
                 }
             )
             HStack {
-                VStack {
-                    Text("Sewing project")
-                    Label("Persephone Pants", systemImage: "scissors")
+                VStack(alignment: .leading) {
+                    Label("Pattern displayed", systemImage: "scissors").font(.caption)
+                    Text("Persephone Pants")
                 }
-                VStack {
-                    Text("Creator name")
-                    Label("Anna Allen Patterns", systemImage: "person.fill")
+                Spacer()
+                VStack(alignment: .trailing) {
+                    Label("Creator name", systemImage: "person.fill").font(.caption)
+                    Text("Anna Allen Patterns")
+                }
+            }
+            HStack {
+                Button(action: {}) {
+                    Image(systemName: "checkmark.seal")
+                }
+                Button(action: {}) {
+                    Image(systemName: "xmark.seal")
                 }
             }
         }
+        .padding()
     }
 }
 
