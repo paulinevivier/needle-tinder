@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5252B5452A9DED7B00D71344 /* needle_tinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252B5442A9DED7B00D71344 /* needle_tinderApp.swift */; };
+		5252B5472A9DED7B00D71344 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252B5462A9DED7B00D71344 /* SwipeView.swift */; };
+		5252B5492A9DED7D00D71344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5252B5482A9DED7D00D71344 /* Assets.xcassets */; };
+		5252B54C2A9DED7D00D71344 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5252B54B2A9DED7D00D71344 /* Preview Assets.xcassets */; };
+		5252B5562A9DED7D00D71344 /* needle_tinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252B5552A9DED7D00D71344 /* needle_tinderTests.swift */; };
+		5252B5602A9DED7D00D71344 /* needle_tinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252B55F2A9DED7D00D71344 /* needle_tinderUITests.swift */; };
+		5252B5622A9DED7D00D71344 /* needle_tinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252B5612A9DED7D00D71344 /* needle_tinderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5252B5522A9DED7D00D71344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5252B5392A9DED7B00D71344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5252B5402A9DED7B00D71344;
+			remoteInfo = "needle-tinder";
+		};
+		5252B55C2A9DED7D00D71344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5252B5392A9DED7B00D71344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5252B5402A9DED7B00D71344;
+			remoteInfo = "needle-tinder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5252B5412A9DED7B00D71344 /* needle-tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "needle-tinder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5252B5442A9DED7B00D71344 /* needle_tinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = needle_tinderApp.swift; sourceTree = "<group>"; };
+		5252B5462A9DED7B00D71344 /* SwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
+		5252B5482A9DED7D00D71344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5252B54B2A9DED7D00D71344 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5252B5512A9DED7D00D71344 /* needle-tinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "needle-tinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5252B5552A9DED7D00D71344 /* needle_tinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = needle_tinderTests.swift; sourceTree = "<group>"; };
+		5252B55B2A9DED7D00D71344 /* needle-tinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "needle-tinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5252B55F2A9DED7D00D71344 /* needle_tinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = needle_tinderUITests.swift; sourceTree = "<group>"; };
+		5252B5612A9DED7D00D71344 /* needle_tinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = needle_tinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5252B53E2A9DED7B00D71344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5252B54E2A9DED7D00D71344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5252B5582A9DED7D00D71344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5252B5382A9DED7B00D71344 = {
+			isa = PBXGroup;
+			children = (
+				5252B5432A9DED7B00D71344 /* needle-tinder */,
+				5252B5542A9DED7D00D71344 /* needle-tinderTests */,
+				5252B55E2A9DED7D00D71344 /* needle-tinderUITests */,
+				5252B5422A9DED7B00D71344 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5252B5422A9DED7B00D71344 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5252B5412A9DED7B00D71344 /* needle-tinder.app */,
+				5252B5512A9DED7D00D71344 /* needle-tinderTests.xctest */,
+				5252B55B2A9DED7D00D71344 /* needle-tinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5252B5432A9DED7B00D71344 /* needle-tinder */ = {
+			isa = PBXGroup;
+			children = (
+				5252B5442A9DED7B00D71344 /* needle_tinderApp.swift */,
+				5252B5462A9DED7B00D71344 /* SwipeView.swift */,
+				5252B5482A9DED7D00D71344 /* Assets.xcassets */,
+				5252B54A2A9DED7D00D71344 /* Preview Content */,
+			);
+			path = "needle-tinder";
+			sourceTree = "<group>";
+		};
+		5252B54A2A9DED7D00D71344 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5252B54B2A9DED7D00D71344 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5252B5542A9DED7D00D71344 /* needle-tinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				5252B5552A9DED7D00D71344 /* needle_tinderTests.swift */,
+			);
+			path = "needle-tinderTests";
+			sourceTree = "<group>";
+		};
+		5252B55E2A9DED7D00D71344 /* needle-tinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5252B55F2A9DED7D00D71344 /* needle_tinderUITests.swift */,
+				5252B5612A9DED7D00D71344 /* needle_tinderUITestsLaunchTests.swift */,
+			);
+			path = "needle-tinderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5252B5402A9DED7B00D71344 /* needle-tinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5252B5652A9DED7D00D71344 /* Build configuration list for PBXNativeTarget "needle-tinder" */;
+			buildPhases = (
+				5252B53D2A9DED7B00D71344 /* Sources */,
+				5252B53E2A9DED7B00D71344 /* Frameworks */,
+				5252B53F2A9DED7B00D71344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "needle-tinder";
+			productName = "needle-tinder";
+			productReference = 5252B5412A9DED7B00D71344 /* needle-tinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5252B5502A9DED7D00D71344 /* needle-tinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5252B5682A9DED7D00D71344 /* Build configuration list for PBXNativeTarget "needle-tinderTests" */;
+			buildPhases = (
+				5252B54D2A9DED7D00D71344 /* Sources */,
+				5252B54E2A9DED7D00D71344 /* Frameworks */,
+				5252B54F2A9DED7D00D71344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5252B5532A9DED7D00D71344 /* PBXTargetDependency */,
+			);
+			name = "needle-tinderTests";
+			productName = "needle-tinderTests";
+			productReference = 5252B5512A9DED7D00D71344 /* needle-tinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5252B55A2A9DED7D00D71344 /* needle-tinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5252B56B2A9DED7D00D71344 /* Build configuration list for PBXNativeTarget "needle-tinderUITests" */;
+			buildPhases = (
+				5252B5572A9DED7D00D71344 /* Sources */,
+				5252B5582A9DED7D00D71344 /* Frameworks */,
+				5252B5592A9DED7D00D71344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5252B55D2A9DED7D00D71344 /* PBXTargetDependency */,
+			);
+			name = "needle-tinderUITests";
+			productName = "needle-tinderUITests";
+			productReference = 5252B55B2A9DED7D00D71344 /* needle-tinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5252B5392A9DED7B00D71344 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5252B5402A9DED7B00D71344 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5252B5502A9DED7D00D71344 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5252B5402A9DED7B00D71344;
+					};
+					5252B55A2A9DED7D00D71344 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5252B5402A9DED7B00D71344;
+					};
+				};
+			};
+			buildConfigurationList = 5252B53C2A9DED7B00D71344 /* Build configuration list for PBXProject "needle-tinder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5252B5382A9DED7B00D71344;
+			productRefGroup = 5252B5422A9DED7B00D71344 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5252B5402A9DED7B00D71344 /* needle-tinder */,
+				5252B5502A9DED7D00D71344 /* needle-tinderTests */,
+				5252B55A2A9DED7D00D71344 /* needle-tinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5252B53F2A9DED7B00D71344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5252B54C2A9DED7D00D71344 /* Preview Assets.xcassets in Resources */,
+				5252B5492A9DED7D00D71344 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5252B54F2A9DED7D00D71344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5252B5592A9DED7D00D71344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5252B53D2A9DED7B00D71344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5252B5472A9DED7B00D71344 /* SwipeView.swift in Sources */,
+				5252B5452A9DED7B00D71344 /* needle_tinderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5252B54D2A9DED7D00D71344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5252B5562A9DED7D00D71344 /* needle_tinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5252B5572A9DED7D00D71344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5252B5602A9DED7D00D71344 /* needle_tinderUITests.swift in Sources */,
+				5252B5622A9DED7D00D71344 /* needle_tinderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5252B5532A9DED7D00D71344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5252B5402A9DED7B00D71344 /* needle-tinder */;
+			targetProxy = 5252B5522A9DED7D00D71344 /* PBXContainerItemProxy */;
+		};
+		5252B55D2A9DED7D00D71344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5252B5402A9DED7B00D71344 /* needle-tinder */;
+			targetProxy = 5252B55C2A9DED7D00D71344 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5252B5632A9DED7D00D71344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5252B5642A9DED7D00D71344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5252B5662A9DED7D00D71344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"needle-tinder/Preview Content\"";
+				DEVELOPMENT_TEAM = J5NBP93GA8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "paulinestefani.needle-tinder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5252B5672A9DED7D00D71344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"needle-tinder/Preview Content\"";
+				DEVELOPMENT_TEAM = J5NBP93GA8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "paulinestefani.needle-tinder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5252B5692A9DED7D00D71344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5NBP93GA8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "paulinestefani.needle-tinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/needle-tinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/needle-tinder";
+			};
+			name = Debug;
+		};
+		5252B56A2A9DED7D00D71344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5NBP93GA8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "paulinestefani.needle-tinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/needle-tinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/needle-tinder";
+			};
+			name = Release;
+		};
+		5252B56C2A9DED7D00D71344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5NBP93GA8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "paulinestefani.needle-tinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "needle-tinder";
+			};
+			name = Debug;
+		};
+		5252B56D2A9DED7D00D71344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5NBP93GA8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "paulinestefani.needle-tinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "needle-tinder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5252B53C2A9DED7B00D71344 /* Build configuration list for PBXProject "needle-tinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5252B5632A9DED7D00D71344 /* Debug */,
+				5252B5642A9DED7D00D71344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5252B5652A9DED7D00D71344 /* Build configuration list for PBXNativeTarget "needle-tinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5252B5662A9DED7D00D71344 /* Debug */,
+				5252B5672A9DED7D00D71344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5252B5682A9DED7D00D71344 /* Build configuration list for PBXNativeTarget "needle-tinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5252B5692A9DED7D00D71344 /* Debug */,
+				5252B56A2A9DED7D00D71344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5252B56B2A9DED7D00D71344 /* Build configuration list for PBXNativeTarget "needle-tinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5252B56C2A9DED7D00D71344 /* Debug */,
+				5252B56D2A9DED7D00D71344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5252B5392A9DED7B00D71344 /* Project object */;
+}
