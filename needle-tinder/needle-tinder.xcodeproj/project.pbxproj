@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5252B5452A9DED7B00D71344 /* needle_tinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252B5442A9DED7B00D71344 /* needle_tinderApp.swift */; };
-		5252B5472A9DED7B00D71344 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252B5462A9DED7B00D71344 /* ContentView.swift */; };
+		5252B5472A9DED7B00D71344 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252B5462A9DED7B00D71344 /* SwipeView.swift */; };
 		5252B5492A9DED7D00D71344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5252B5482A9DED7D00D71344 /* Assets.xcassets */; };
 		5252B54C2A9DED7D00D71344 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5252B54B2A9DED7D00D71344 /* Preview Assets.xcassets */; };
 		5252B5562A9DED7D00D71344 /* needle_tinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252B5552A9DED7D00D71344 /* needle_tinderTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		5252B5412A9DED7B00D71344 /* needle-tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "needle-tinder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5252B5442A9DED7B00D71344 /* needle_tinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = needle_tinderApp.swift; sourceTree = "<group>"; };
-		5252B5462A9DED7B00D71344 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5252B5462A9DED7B00D71344 /* SwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
 		5252B5482A9DED7D00D71344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5252B54B2A9DED7D00D71344 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5252B5512A9DED7D00D71344 /* needle-tinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "needle-tinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				5252B5442A9DED7B00D71344 /* needle_tinderApp.swift */,
-				5252B5462A9DED7B00D71344 /* ContentView.swift */,
+				5252B5462A9DED7B00D71344 /* SwipeView.swift */,
 				5252B5482A9DED7D00D71344 /* Assets.xcassets */,
 				5252B54A2A9DED7D00D71344 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5252B5472A9DED7B00D71344 /* ContentView.swift in Sources */,
+				5252B5472A9DED7B00D71344 /* SwipeView.swift in Sources */,
 				5252B5452A9DED7B00D71344 /* needle_tinderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

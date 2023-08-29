@@ -11,7 +11,7 @@ import SwiftUI
 struct needle_tinderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SwipeView()
         }
     }
 }
