@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct SwipeView: View {
+    @State var pattern = chooseRandomPattern()
+    
     var body: some View {
         VStack {
             AsyncImage(
-                url: URL(string: "https://annaallenclothing.com/cdn/shop/products/Persephone5_1024x1024@2x.jpg?v=1591068164"),
+                url: URL(string: pattern.image),
                 content: { image in image.resizable().aspectRatio(contentMode: .fit).frame(maxWidth: 200, maxHeight: 400)
                 },
                 placeholder: {
@@ -21,19 +23,23 @@ struct SwipeView: View {
             HStack {
                 VStack(alignment: .leading) {
                     Label("Pattern displayed", systemImage: "scissors").font(.caption)
-                    Text("Persephone Pants")
+                    Text(pattern.name)
                 }
                 Spacer()
                 VStack(alignment: .trailing) {
                     Label("Creator name", systemImage: "person.fill").font(.caption)
-                    Text("Anna Allen Patterns")
+                    Text(pattern.creator)
                 }
             }
             HStack {
-                Button(action: {}) {
+                Button(action: {
+                    self.pattern = chooseRandomPattern()
+                }) {
                     Image(systemName: "checkmark.seal")
                 }
-                Button(action: {}) {
+                Button(action: {
+                    self.pattern = chooseRandomPattern()
+                }) {
                     Image(systemName: "xmark.seal")
                 }
             }
@@ -46,4 +52,11 @@ struct SwipeView_Previews: PreviewProvider {
     static var previews: some View {
         SwipeView()
     }
+}
+
+func chooseRandomPattern() -> Pattern {
+    @ObservedObject var datas = ReadData()
+    let pattern = datas.patterns.randomElement()
+
+    return pattern!
 }
