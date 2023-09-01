@@ -14,14 +14,12 @@ struct CardView: View {
         GeometryReader { geometry in
             
             VStack(alignment: .leading) {
-                AsyncImage(
-                    url: URL(string: pattern.image),
-                    content: { image in image.resizable().aspectRatio(contentMode: .fit).frame(maxWidth: 200, maxHeight: 400)},
-                    placeholder: {ProgressView()}
-                )
-                .scaledToFill()
-                .frame(width: geometry.size.width, height: geometry.size.height * 0.75)
-                .clipped()
+                
+                Image(self.pattern.image)
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: geometry.size.width, height: geometry.size.height * 0.75)
+                    .clipped()
                 
                 HStack {
                     VStack(alignment: .leading, spacing: 6) {
@@ -45,6 +43,6 @@ struct CardView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView(pattern: Pattern(name: "Pattern", creator: "Creator", image: "https://media.istockphoto.com/id/1037702528/photo/sewing-pattern.jpg?s=612x612&w=0&k=20&c=9v6-XmGiL-T33ETqsFcz5Sxe1uvJ4io5aJtMaUk2ZhE=")).frame(height: 400).padding()
+        CardView(pattern: Pattern(name: "Pattern", creator: "Creator", image: "Pattern")).frame(height: 600).padding()
     }
 }

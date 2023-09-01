@@ -13,7 +13,7 @@ struct SwipeView: View {
     var body: some View {
         VStack {
             CardView(pattern: self.pattern)
-                .frame(height: 400)
+                .frame(height: 600)
             
             HStack {
                 Button(action: {
