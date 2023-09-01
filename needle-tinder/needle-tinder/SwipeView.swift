@@ -12,25 +12,9 @@ struct SwipeView: View {
     
     var body: some View {
         VStack {
-            AsyncImage(
-                url: URL(string: pattern.image),
-                content: { image in image.resizable().aspectRatio(contentMode: .fit).frame(maxWidth: 200, maxHeight: 400)
-                },
-                placeholder: {
-                    ProgressView()
-                }
-            )
-            HStack {
-                VStack(alignment: .leading) {
-                    Label("Pattern displayed", systemImage: "scissors").font(.caption)
-                    Text(pattern.name)
-                }
-                Spacer()
-                VStack(alignment: .trailing) {
-                    Label("Creator name", systemImage: "person.fill").font(.caption)
-                    Text(pattern.creator)
-                }
-            }
+            CardView(pattern: self.pattern)
+                .frame(height: 400)
+            
             HStack {
                 Button(action: {
                     self.pattern = chooseRandomPattern()

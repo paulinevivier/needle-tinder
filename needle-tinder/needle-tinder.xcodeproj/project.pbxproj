@@ -16,6 +16,7 @@
 		5252B5622A9DED7D00D71344 /* needle_tinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252B5612A9DED7D00D71344 /* needle_tinderUITestsLaunchTests.swift */; };
 		527B70192A9E380800910556 /* patterns-data.json in Resources */ = {isa = PBXBuildFile; fileRef = 527B70182A9E380800910556 /* patterns-data.json */; };
 		527B701B2A9E398200910556 /* patterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B701A2A9E398200910556 /* patterns.swift */; };
+		527DDDF52AA1E2F1003C7907 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DDDF42AA1E2F1003C7907 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		5252B5612A9DED7D00D71344 /* needle_tinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = needle_tinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		527B70182A9E380800910556 /* patterns-data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "patterns-data.json"; sourceTree = "<group>"; };
 		527B701A2A9E398200910556 /* patterns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patterns.swift; sourceTree = "<group>"; };
+		527DDDF42AA1E2F1003C7907 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				5252B54A2A9DED7D00D71344 /* Preview Content */,
 				527B70182A9E380800910556 /* patterns-data.json */,
 				527B701A2A9E398200910556 /* patterns.swift */,
+				527DDDF42AA1E2F1003C7907 /* CardView.swift */,
 			);
 			path = "needle-tinder";
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			files = (
 				5252B5472A9DED7B00D71344 /* SwipeView.swift in Sources */,
 				527B701B2A9E398200910556 /* patterns.swift in Sources */,
+				527DDDF52AA1E2F1003C7907 /* CardView.swift in Sources */,
 				5252B5452A9DED7B00D71344 /* needle_tinderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

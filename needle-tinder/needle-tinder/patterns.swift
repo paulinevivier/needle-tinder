@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct Pattern: Codable, Identifiable {
+struct Pattern: Codable, Identifiable, Hashable {
     enum CodingKeys: CodingKey {
         case name
         case creator
