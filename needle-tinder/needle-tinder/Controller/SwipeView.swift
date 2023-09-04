@@ -22,16 +22,12 @@ struct SwipeView: View {
                     .frame(height: 600)
                 
                 HStack {
-                    Button(action: {
+                    IconButtonView(text: "Match!", icon: "checkmark", color: Color.green, onClick: {
                         patternsPool.remove(at: patternsPool.firstIndex(of: currentPattern)!)
-                    }) {
-                        Image(systemName: "checkmark.seal")
-                    }
-                    Button(action: {
+                    })
+                    IconButtonView(text: "Pass", icon: "xmark", color: Color.red, onClick: {
                         patternsPool.remove(at: patternsPool.firstIndex(of: currentPattern)!)
-                    }) {
-                        Image(systemName: "xmark.seal")
-                    }
+                    })
                 }
             }
             .padding()
