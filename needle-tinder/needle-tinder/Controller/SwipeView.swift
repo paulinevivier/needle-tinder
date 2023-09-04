@@ -11,25 +11,31 @@ struct SwipeView: View {
     @State var patternsPool = ReadData().patterns
     
     var body: some View {
-        let currentPattern = chooseRandomPattern(patternsPool: self.patternsPool)
-        VStack {
-            CardView(pattern: currentPattern)
-                .frame(height: 600)
-            
-            HStack {
-                Button(action: {
-                    patternsPool.remove(at: patternsPool.firstIndex(of: currentPattern)!)
-                }) {
-                    Image(systemName: "checkmark.seal")
-                }
-                Button(action: {
-                    patternsPool.remove(at: patternsPool.firstIndex(of: currentPattern)!)
-                }) {
-                    Image(systemName: "xmark.seal")
+        if patternsPool.isEmpty {
+            VStack {
+                PopupView(title: "No more patterns!", content: "You have seen through all the available patterns. Come back later for new features.")
+            }
+        } else {
+            let currentPattern = chooseRandomPattern(patternsPool: self.patternsPool)
+            VStack {
+                CardView(pattern: currentPattern)
+                    .frame(height: 600)
+                
+                HStack {
+                    Button(action: {
+                        patternsPool.remove(at: patternsPool.firstIndex(of: currentPattern)!)
+                    }) {
+                        Image(systemName: "checkmark.seal")
+                    }
+                    Button(action: {
+                        patternsPool.remove(at: patternsPool.firstIndex(of: currentPattern)!)
+                    }) {
+                        Image(systemName: "xmark.seal")
+                    }
                 }
             }
+            .padding()
         }
-        .padding()
     }
 }
 

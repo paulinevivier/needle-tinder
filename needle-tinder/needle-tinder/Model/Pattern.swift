@@ -30,7 +30,7 @@ class ReadData: ObservableObject  {
     }
     
     func loadData()  {
-        guard let url = Bundle.main.url(forResource: "patterns-data", withExtension: "json")
+        guard let url = Bundle.main.url(forResource: "PatternsData", withExtension: "json")
             else {
                 print("Json file not found")
                 return
