@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CardView: View {
-    @State var pattern: Pattern
+    var pattern: Pattern
     
     var body: some View {
         GeometryReader { geometry in
