@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Persephone Pants",
+        "creator": "Anna Allen Patterns",
+        "image": "Patterns/PersephonePants"
+   },
+    {
+        "name": "Happy Top or Dress",
+        "creator": "Mimoï",
+        "image": "Patterns/HappyTopDress"
+   },
+    {
+        "name": "Mandy Dress",
+        "creator": "Sonia Estep Designs",
+        "image": "Patterns/MandyDress"
+   },
+    {
+        "name": "Clémence Overalls",
+        "creator": "Atelier Des Premières",
+        "image": "Patterns/ClemenceOveralls"
+   },
+    {
+        "name": "Ash Jeans",
+        "creator": "Megan Nielsen Patterns",
+        "image": "Patterns/AshJeans"
+   }
+]
