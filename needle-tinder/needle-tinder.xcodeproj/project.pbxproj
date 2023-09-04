@@ -18,6 +18,7 @@
 		527B701B2A9E398200910556 /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B701A2A9E398200910556 /* Pattern.swift */; };
 		527DDDF52AA1E2F1003C7907 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DDDF42AA1E2F1003C7907 /* CardView.swift */; };
 		527DDE062AA60A6E003C7907 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DDE052AA60A6E003C7907 /* PopupView.swift */; };
+		527DDE082AA62EBA003C7907 /* IconButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DDE072AA62EBA003C7907 /* IconButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		527B701A2A9E398200910556 /* Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pattern.swift; sourceTree = "<group>"; };
 		527DDDF42AA1E2F1003C7907 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		527DDE052AA60A6E003C7907 /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		527DDE072AA62EBA003C7907 /* IconButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,8 +143,9 @@
 			isa = PBXGroup;
 			children = (
 				5252B5462A9DED7B00D71344 /* SwipeView.swift */,
-				527DDDF42AA1E2F1003C7907 /* CardView.swift */,
 				527DDE052AA60A6E003C7907 /* PopupView.swift */,
+				527DDDF42AA1E2F1003C7907 /* CardView.swift */,
+				527DDE072AA62EBA003C7907 /* IconButtonView.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				527DDDF52AA1E2F1003C7907 /* CardView.swift in Sources */,
 				527DDE062AA60A6E003C7907 /* PopupView.swift in Sources */,
 				5252B5452A9DED7B00D71344 /* NeedleTinderApp.swift in Sources */,
+				527DDE082AA62EBA003C7907 /* IconButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
