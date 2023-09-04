@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5252B5452A9DED7B00D71344 /* needle_tinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252B5442A9DED7B00D71344 /* needle_tinderApp.swift */; };
+		5252B5452A9DED7B00D71344 /* NeedleTinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252B5442A9DED7B00D71344 /* NeedleTinderApp.swift */; };
 		5252B5472A9DED7B00D71344 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252B5462A9DED7B00D71344 /* SwipeView.swift */; };
 		5252B5492A9DED7D00D71344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5252B5482A9DED7D00D71344 /* Assets.xcassets */; };
 		5252B54C2A9DED7D00D71344 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5252B54B2A9DED7D00D71344 /* Preview Assets.xcassets */; };
 		5252B5562A9DED7D00D71344 /* needle_tinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252B5552A9DED7D00D71344 /* needle_tinderTests.swift */; };
 		5252B5602A9DED7D00D71344 /* needle_tinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252B55F2A9DED7D00D71344 /* needle_tinderUITests.swift */; };
 		5252B5622A9DED7D00D71344 /* needle_tinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252B5612A9DED7D00D71344 /* needle_tinderUITestsLaunchTests.swift */; };
-		527B70192A9E380800910556 /* patterns-data.json in Resources */ = {isa = PBXBuildFile; fileRef = 527B70182A9E380800910556 /* patterns-data.json */; };
-		527B701B2A9E398200910556 /* patterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B701A2A9E398200910556 /* patterns.swift */; };
+		527B70192A9E380800910556 /* PatternsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 527B70182A9E380800910556 /* PatternsData.json */; };
+		527B701B2A9E398200910556 /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B701A2A9E398200910556 /* Pattern.swift */; };
 		527DDDF52AA1E2F1003C7907 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DDDF42AA1E2F1003C7907 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		5252B5412A9DED7B00D71344 /* needle-tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "needle-tinder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5252B5442A9DED7B00D71344 /* needle_tinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = needle_tinderApp.swift; sourceTree = "<group>"; };
+		5252B5442A9DED7B00D71344 /* NeedleTinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedleTinderApp.swift; sourceTree = "<group>"; };
 		5252B5462A9DED7B00D71344 /* SwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
 		5252B5482A9DED7D00D71344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5252B54B2A9DED7D00D71344 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -47,8 +47,8 @@
 		5252B55B2A9DED7D00D71344 /* needle-tinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "needle-tinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5252B55F2A9DED7D00D71344 /* needle_tinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = needle_tinderUITests.swift; sourceTree = "<group>"; };
 		5252B5612A9DED7D00D71344 /* needle_tinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = needle_tinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		527B70182A9E380800910556 /* patterns-data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "patterns-data.json"; sourceTree = "<group>"; };
-		527B701A2A9E398200910556 /* patterns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patterns.swift; sourceTree = "<group>"; };
+		527B70182A9E380800910556 /* PatternsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PatternsData.json; sourceTree = "<group>"; };
+		527B701A2A9E398200910556 /* Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pattern.swift; sourceTree = "<group>"; };
 		527DDDF42AA1E2F1003C7907 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,13 +100,12 @@
 		5252B5432A9DED7B00D71344 /* needle-tinder */ = {
 			isa = PBXGroup;
 			children = (
-				5252B5442A9DED7B00D71344 /* needle_tinderApp.swift */,
-				5252B5462A9DED7B00D71344 /* SwipeView.swift */,
+				5252B5442A9DED7B00D71344 /* NeedleTinderApp.swift */,
+				527DDE022AA6049D003C7907 /* Controller */,
 				5252B5482A9DED7D00D71344 /* Assets.xcassets */,
 				5252B54A2A9DED7D00D71344 /* Preview Content */,
-				527B70182A9E380800910556 /* patterns-data.json */,
-				527B701A2A9E398200910556 /* patterns.swift */,
-				527DDDF42AA1E2F1003C7907 /* CardView.swift */,
+				527DDE042AA604B7003C7907 /* Data */,
+				527DDE032AA604AF003C7907 /* Model */,
 			);
 			path = "needle-tinder";
 			sourceTree = "<group>";
@@ -134,6 +133,31 @@
 				5252B5612A9DED7D00D71344 /* needle_tinderUITestsLaunchTests.swift */,
 			);
 			path = "needle-tinderUITests";
+			sourceTree = "<group>";
+		};
+		527DDE022AA6049D003C7907 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5252B5462A9DED7B00D71344 /* SwipeView.swift */,
+				527DDDF42AA1E2F1003C7907 /* CardView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		527DDE032AA604AF003C7907 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				527B701A2A9E398200910556 /* Pattern.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		527DDE042AA604B7003C7907 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				527B70182A9E380800910556 /* PatternsData.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,7 +266,7 @@
 			files = (
 				5252B54C2A9DED7D00D71344 /* Preview Assets.xcassets in Resources */,
 				5252B5492A9DED7D00D71344 /* Assets.xcassets in Resources */,
-				527B70192A9E380800910556 /* patterns-data.json in Resources */,
+				527B70192A9E380800910556 /* PatternsData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,9 +292,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5252B5472A9DED7B00D71344 /* SwipeView.swift in Sources */,
-				527B701B2A9E398200910556 /* patterns.swift in Sources */,
+				527B701B2A9E398200910556 /* Pattern.swift in Sources */,
 				527DDDF52AA1E2F1003C7907 /* CardView.swift in Sources */,
-				5252B5452A9DED7B00D71344 /* needle_tinderApp.swift in Sources */,
+				5252B5452A9DED7B00D71344 /* NeedleTinderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
