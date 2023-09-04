@@ -17,7 +17,12 @@ struct PatternRowView: View {
                 .scaledToFit()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 50, height: 50)
-            Text(pattern.name)
+            VStack(alignment: .leading) {
+                Text(pattern.name)
+                    .font(.title3)
+                Text(pattern.creator)
+                    .font(.body)
+            }
             
             Spacer()
         }
