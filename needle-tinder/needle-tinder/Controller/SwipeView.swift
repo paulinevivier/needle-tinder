@@ -8,21 +8,22 @@
 import SwiftUI
 
 struct SwipeView: View {
-    @State var pattern = chooseRandomPattern()
+    @State var patternsPool = ReadData().patterns
     
     var body: some View {
+        let currentPattern = chooseRandomPattern(patternsPool: self.patternsPool)
         VStack {
-            CardView(pattern: self.pattern)
+            CardView(pattern: currentPattern)
                 .frame(height: 600)
             
             HStack {
                 Button(action: {
-                    self.pattern = chooseRandomPattern()
+                    patternsPool.remove(at: patternsPool.firstIndex(of: currentPattern)!)
                 }) {
                     Image(systemName: "checkmark.seal")
                 }
                 Button(action: {
-                    self.pattern = chooseRandomPattern()
+                    patternsPool.remove(at: patternsPool.firstIndex(of: currentPattern)!)
                 }) {
                     Image(systemName: "xmark.seal")
                 }
@@ -38,9 +39,8 @@ struct SwipeView_Previews: PreviewProvider {
     }
 }
 
-func chooseRandomPattern() -> Pattern {
-    @ObservedObject var datas = ReadData()
-    let pattern = datas.patterns.randomElement()
+func chooseRandomPattern(patternsPool: [Pattern]) -> Pattern {
+    let pattern = patternsPool.randomElement()
 
     return pattern!
 }
