@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SwipeView: View {
     @State var patternsPool = ReadData().patterns
+    @State var matchedPatterns = [Pattern]()
     
     var body: some View {
         if patternsPool.isEmpty {
@@ -24,6 +25,7 @@ struct SwipeView: View {
                 HStack {
                     IconButtonView(text: "Match!", icon: "checkmark", color: Color.green, onClick: {
                         patternsPool.remove(at: patternsPool.firstIndex(of: currentPattern)!)
+                        matchedPatterns.append(currentPattern)
                     })
                     IconButtonView(text: "Pass", icon: "xmark", color: Color.red, onClick: {
                         patternsPool.remove(at: patternsPool.firstIndex(of: currentPattern)!)
