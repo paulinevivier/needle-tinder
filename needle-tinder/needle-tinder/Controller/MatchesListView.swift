@@ -8,10 +8,14 @@
 import SwiftUI
 
 struct MatchesListView: View {
-    var matchesList: [Pattern]
+    @State var matchesList: [Pattern]
+    
     var body: some View {
-        List(matchesList) { pattern in
-            PatternRowView(pattern: pattern)
+        NavigationView {
+            List(self.matchesList) { pattern in
+                PatternRowView(pattern: pattern)
+            }
+            .navigationTitle("My patterns")
         }
     }
 }

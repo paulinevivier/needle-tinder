@@ -9,6 +9,8 @@ import SwiftUI
 struct PopupView: View {
     @State var title: String
     @State var content: String
+    @State var buttonText: String
+    @State var onClick: () -> Void
     
     var body: some View {
         VStack(alignment: .center, spacing: .zero) {
@@ -23,6 +25,9 @@ struct PopupView: View {
             Text(content)
                 .font(.body)
                 .frame(width: 300)
+                .padding(.bottom)
+            
+            IconButtonView(text: self.buttonText, icon: nil, color: Color.white, onClick: self.onClick)
         }
         .padding()
         .multilineTextAlignment(.center)
@@ -34,6 +39,6 @@ struct PopupView: View {
 
 struct PopupView_Previews: PreviewProvider {
     static var previews: some View {
-        PopupView(title: "Title", content: "Lorem ipsum dolor sit amet")
+        PopupView(title: "Title", content: "Lorem ipsum dolor sit amet", buttonText: "Click", onClick: {})
     }
 }

@@ -10,11 +10,20 @@ import SwiftUI
 struct SwipeView: View {
     @State var patternsPool = ReadData().patterns
     @State var matchedPatterns = [Pattern]()
+    @State var showMatchesList = false
     
     var body: some View {
         if patternsPool.isEmpty {
             VStack {
-                PopupView(title: "No more patterns!", content: "You have seen through all the available patterns. Come back later for new features.")
+                if showMatchesList {
+                    VStack {
+                        MatchesListView(matchesList: matchedPatterns)
+                    }
+                } else {
+                    VStack {
+                    PopupView(title: "No more patterns!", content: "You have seen through all the available patterns. Click to see your matched patterns!", buttonText: "My patterns", onClick: { self.showMatchesList = true })
+                    }
+                }
             }
         } else {
             let currentPattern = chooseRandomPattern(patternsPool: self.patternsPool)
