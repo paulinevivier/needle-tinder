@@ -17,6 +17,7 @@ struct PatternRowView: View {
                 .scaledToFit()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 50, height: 50)
+                .clipped()
             VStack(alignment: .leading) {
                 Text(pattern.name)
                     .font(.title3)
@@ -31,7 +32,7 @@ struct PatternRowView: View {
 
 struct PatternRowView_Previews: PreviewProvider {
     static var previews: some View {
-        PatternRowView(pattern: Pattern(name: "Pattern", creator: "Creator", image: "Pattern"))
+        PatternRowView(pattern: Pattern())
             .previewLayout(.fixed(width: 300, height: 70))
     }
 }

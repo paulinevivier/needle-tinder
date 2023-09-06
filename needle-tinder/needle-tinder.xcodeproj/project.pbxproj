@@ -21,6 +21,7 @@
 		527DDE082AA62EBA003C7907 /* IconButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DDE072AA62EBA003C7907 /* IconButtonView.swift */; };
 		527DDE0A2AA6382E003C7907 /* MatchesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DDE092AA6382E003C7907 /* MatchesListView.swift */; };
 		527DDE0C2AA638C2003C7907 /* PatternRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DDE0B2AA638C2003C7907 /* PatternRowView.swift */; };
+		527DDE102AA871F4003C7907 /* PatternDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DDE0F2AA871F4003C7907 /* PatternDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		527DDE072AA62EBA003C7907 /* IconButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButtonView.swift; sourceTree = "<group>"; };
 		527DDE092AA6382E003C7907 /* MatchesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesListView.swift; sourceTree = "<group>"; };
 		527DDE0B2AA638C2003C7907 /* PatternRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternRowView.swift; sourceTree = "<group>"; };
+		527DDE0F2AA871F4003C7907 /* PatternDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				527DDE072AA62EBA003C7907 /* IconButtonView.swift */,
 				527DDE092AA6382E003C7907 /* MatchesListView.swift */,
 				527DDE0B2AA638C2003C7907 /* PatternRowView.swift */,
+				527DDE0F2AA871F4003C7907 /* PatternDetailView.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				527DDE0C2AA638C2003C7907 /* PatternRowView.swift in Sources */,
 				5252B5452A9DED7B00D71344 /* NeedleTinderApp.swift in Sources */,
 				527DDE082AA62EBA003C7907 /* IconButtonView.swift in Sources */,
+				527DDE102AA871F4003C7907 /* PatternDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

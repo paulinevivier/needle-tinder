@@ -13,7 +13,12 @@ struct MatchesListView: View {
     var body: some View {
         NavigationView {
             List(self.matchesList) { pattern in
-                PatternRowView(pattern: pattern)
+                
+                NavigationLink {
+                    PatternDetailView(pattern: pattern)
+                } label: {
+                    PatternRowView(pattern: pattern)
+                }
             }
             .navigationTitle("My patterns")
         }
