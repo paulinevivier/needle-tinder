@@ -32,11 +32,11 @@ struct PatternDetailView: View {
                 
                 Text("About \(self.pattern.name)")
                     .font(.title2)
+                    .padding(.bottom, -2.0)
                 Text(self.pattern.description)
             }
             .padding()
         }
-        
         .navigationTitle(self.pattern.name)
         .navigationBarTitleDisplayMode(.inline)
     }
