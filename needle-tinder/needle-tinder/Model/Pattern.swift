@@ -13,12 +13,14 @@ struct Pattern: Codable, Identifiable, Hashable {
         case name
         case creator
         case image
+        case description
     }
     
     var id = UUID()
-    var name: String
-    var creator: String
-    var image: String
+    var name = "Pattern"
+    var creator = "Creator"
+    var image = "Pattern"
+    var description = "Lorem ipsum dolor sit amet"
 }
 
 class ReadData: ObservableObject  {

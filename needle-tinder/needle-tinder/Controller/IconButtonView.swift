@@ -9,7 +9,7 @@ import SwiftUI
 
 struct IconButtonView: View {
     let text: String
-    let icon: String
+    let icon: String?
     let color: Color
     var onClick: () -> Void
     
@@ -18,18 +18,21 @@ struct IconButtonView: View {
             onClick()
         }){
             HStack{
-                Image(systemName: self.icon)
-                    .fontWeight(.bold)
+                if icon != nil {
+                    Image(systemName: self.icon!)
+                        .fontWeight(.bold)
                     .font(.title2)
+                }
                 Text(self.text)
                     .fontWeight(.bold)
                     .font(.title2)
             }
-            .frame(width: 120)
+            .frame(minWidth: 120)
             .padding()
             .background(self.color)
-            .foregroundColor(.white)
+            .foregroundColor(self.color == Color.white ? Color.black : Color.white)
             .cornerRadius(40)
+            .shadow(radius: 5)
         }
     }
 }

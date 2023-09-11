@@ -43,6 +43,6 @@ struct CardView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView(pattern: Pattern(name: "Pattern", creator: "Creator", image: "Pattern")).frame(height: 600).padding()
+        CardView(pattern: Pattern()).frame(height: 600).padding()
     }
 }
